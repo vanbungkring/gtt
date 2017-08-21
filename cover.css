@@ -49,7 +49,15 @@ body {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
-
+.sh-client {
+  width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.sh-client ul li {
+    display: inline-block;
+    padding: 10px 8px;
+}
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -61,6 +69,7 @@ body {
 }
 .site-wrapper-inner {
   display: table-cell;
+  padding-top: 100px;
   vertical-align: top;
 }
 .cover-container {
@@ -159,7 +168,8 @@ body {
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
-    vertical-align: middle;
+    vertical-align: top;
+    padding-top: 100px;
   }
   /* Handle the widths */
   .masthead,
